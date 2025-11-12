@@ -2869,6 +2869,24 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
+					(name "EX_ANT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
 					(name "AADET_N"
 						(effects
 							(font
@@ -2885,7 +2903,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -5.08 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "NC"
 						(effects
@@ -2903,7 +2921,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "RESET"
 						(effects
@@ -2913,24 +2931,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "EX_ANT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6944,198 +6944,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VBP104SR:VBP104SR"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 11.43 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "VBP104SR"
-				(at 11.43 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOD6439X130N"
-				(at 11.43 -97.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/122422.pdf"
-				(at 11.43 -197.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "PIN Photodiode 430-1100nm SMD2 RGW Vishay VBP104SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.3"
-				(at 11.43 -397.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "782-VBP104SR"
-				(at 11.43 -497.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VBP104SR?qs=Uj7aA%252BCqp8ZjziudB%252BkJcQ%3D%3D"
-				(at 11.43 -597.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 11.43 -697.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "VBP104SR"
-				(at 11.43 -797.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "VBP104SR_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -7602,8 +7410,8 @@
 		)
 	)
 	(rectangle
-		(start -190.5 -10.16)
-		(end -97.79 109.22)
+		(start 13.97 127)
+		(end 114.3 173.99)
 		(stroke
 			(width 0)
 			(type default)
@@ -7611,7 +7419,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 122465dc-d521-4192-b66c-dc747317155f)
+		(uuid 18a971a2-32cd-48b6-91c9-6f3d07331f92)
 	)
 	(rectangle
 		(start 13.97 54.61)
@@ -7661,15 +7469,15 @@
 		)
 		(uuid ec5221a0-697b-477d-86df-5fe2c711a24c)
 	)
-	(text "Polarización inversa\n"
+	(text "A N2HET1[0] del micro"
 		(exclude_from_sim no)
-		(at -175.514 92.456 0)
+		(at 75.184 140.716 0)
 		(effects
 			(font
 				(size 0.762 0.762)
 			)
 		)
-		(uuid "24cbe2d9-20e0-44c2-add1-a842a8704ae4")
+		(uuid "2169aa31-3c6f-45bb-88f0-05d0c39c1d69")
 	)
 	(text "OSCILADOR"
 		(exclude_from_sim no)
@@ -7683,7 +7491,7 @@
 	)
 	(text "Módulo GNSS"
 		(exclude_from_sim no)
-		(at 33.02 137.414 0)
+		(at 40.64 138.684 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7703,7 +7511,7 @@
 	)
 	(text "Magnetómetro\n"
 		(exclude_from_sim no)
-		(at -67.31 77.724 0)
+		(at 43.18 225.044 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7711,19 +7519,19 @@
 		)
 		(uuid "2d1bf5dd-fe14-4ee2-9021-38007af8103c")
 	)
-	(text "Polarización inversa\n"
+	(text "Módulo GNSS\n"
 		(exclude_from_sim no)
-		(at -175.514 53.086 0)
+		(at 27.94 130.81 0)
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 2.54 2.54)
 			)
 		)
-		(uuid "2ffa70b1-e516-49aa-87d5-4072fe46b305")
+		(uuid "30620976-8705-46eb-a0ce-491cd42baa62")
 	)
 	(text "Interfaz digital hacia OBC"
 		(exclude_from_sim no)
-		(at -56.388 118.11 0)
+		(at -141.478 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7740,26 +7548,6 @@
 			)
 		)
 		(uuid "342dba21-cc01-483d-bc6c-f0f4b802d70b")
-	)
-	(text "Polarización inversa\n"
-		(exclude_from_sim no)
-		(at -175.514 9.906 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "42189419-e211-4bc8-82b0-35d5d3503f20")
-	)
-	(text "Polarización inversa\n"
-		(exclude_from_sim no)
-		(at -175.514 31.496 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "47837d6d-037c-4b4c-8638-7977c0f882d2")
 	)
 	(text "Filtro Low-Noise "
 		(exclude_from_sim no)
@@ -7781,35 +7569,15 @@
 		)
 		(uuid "8c681c5f-b45f-435c-9116-da600f34b99f")
 	)
-	(text "Pin añadido por nosotros preguntar a Salvador"
+	(text "Los pines 1 y 2 van conectados al\npin de transmisión y al pin de\nrecepción del micro respectivamente.\nN2HET1[11]-----N2HET1[13]"
 		(exclude_from_sim no)
-		(at 31.496 159.258 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "a72f304c-2699-49f7-aa97-671a24a3a769")
-	)
-	(text "Polarización inversa\n"
-		(exclude_from_sim no)
-		(at -175.514 72.136 0)
+		(at 77.724 159.512 0)
 		(effects
 			(font
 				(size 0.762 0.762)
 			)
 		)
-		(uuid "b321f763-69f4-44de-8fe9-c289223493f9")
-	)
-	(text "Fotodiodo \n"
-		(exclude_from_sim no)
-		(at -156.21 -2.032 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bd62e7a6-e7c5-452e-9c35-caee12c619b3")
+		(uuid "9b82ffc5-b2c3-4491-b63e-0f38a701a63f")
 	)
 	(text "Antena\n"
 		(exclude_from_sim no)
@@ -7821,19 +7589,9 @@
 		)
 		(uuid "cc5892b7-757c-4cec-88ed-a3ce9f4017e8")
 	)
-	(text "Sensores Solares"
-		(exclude_from_sim no)
-		(at -117.348 -5.588 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "cc7371a4-166c-47b9-b862-823c0d16bc4f")
-	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at -65.786 9.652 0)
+		(at 42.164 186.182 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7851,11 +7609,15 @@
 		)
 		(uuid "ed108709-7d7b-4039-a9e4-2a484c80bbd6")
 	)
-	(junction
-		(at -125.73 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "006a5a51-92db-4d36-8618-24276f6aecbb")
+	(text "El pin 5 podría ir conectado\na una pila o un supercapacitor\npara poder hacer un hot start"
+		(exclude_from_sim no)
+		(at 99.06 143.002 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "fd7338ac-f3d4-4399-ac32-a51cfffd8e5e")
 	)
 	(junction
 		(at 45.72 29.21)
@@ -7876,10 +7638,16 @@
 		(uuid "1a341dc2-6ac5-4c74-8cc7-e3ada693cca5")
 	)
 	(junction
-		(at -144.78 50.8)
+		(at 22.86 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4be6859d-39bc-4252-9e30-1cfff955c425")
+		(uuid "303e73ca-0afc-4842-b261-a0303e25be00")
+	)
+	(junction
+		(at 22.86 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fbd9b54-a4ce-4ef8-bde2-0f15fd11a8fa")
 	)
 	(junction
 		(at 370.84 78.74)
@@ -7888,22 +7656,22 @@
 		(uuid "520fc19f-9f46-456a-b28f-c94bc01714d5")
 	)
 	(junction
-		(at -144.78 7.62)
+		(at 86.36 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b4d4ac1-39d2-4832-99ed-7e88f6cc4070")
+		(uuid "566f0ef6-6e30-44cc-90d3-3f3903755078")
 	)
 	(junction
-		(at -144.78 90.17)
+		(at 22.86 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6405ab47-607f-42fe-8520-34a1566a27c5")
+		(uuid "6b9e4f1f-a695-425d-b8ad-eb1f04c9e93a")
 	)
 	(junction
-		(at -125.73 50.8)
+		(at 22.86 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4aed0d4-af35-4c26-bc24-61e08630f0af")
+		(uuid "b10e9b37-49f0-4e5f-a6c1-ee82bc26b7e9")
 	)
 	(junction
 		(at 24.13 96.52)
@@ -7918,46 +7686,22 @@
 		(uuid "c09875cf-3915-4194-bbf4-455b5799fec0")
 	)
 	(junction
-		(at -125.73 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c26cb2f4-fc0d-42cd-bdd7-003d1899fad5")
-	)
-	(junction
 		(at 370.84 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c26d5d2d-df4c-400f-878d-92ae0106eebb")
 	)
 	(junction
-		(at -125.73 90.17)
+		(at 96.52 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cddecf1e-11c1-468f-8624-3a88f760465a")
-	)
-	(junction
-		(at -125.73 7.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d05cc7ae-a983-4755-9c8d-87d3c9c5bb88")
-	)
-	(junction
-		(at -144.78 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8119fd5-ed77-49de-a5ef-36bdcd089ca6")
+		(uuid "ececd9de-2f14-4798-83a7-5bb3997fd723")
 	)
 	(junction
 		(at 66.04 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f16d02d3-8d4f-4bd6-bdae-6446f035f4ed")
-	)
-	(junction
-		(at -144.78 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb8424fd-2ffd-4564-aac9-4dd735f7a23e")
 	)
 	(junction
 		(at 49.53 34.29)
@@ -7976,6 +7720,10 @@
 	(no_connect
 		(at 392.43 83.82)
 		(uuid "097d9da2-97fd-4923-839b-95a9b3678c80")
+	)
+	(no_connect
+		(at 35.56 148.59)
+		(uuid "73497760-b39c-4994-ab31-10913bcf0fef")
 	)
 	(no_connect
 		(at 184.15 104.14)
@@ -8013,16 +7761,6 @@
 	)
 	(wire
 		(pts
-			(xy -125.73 29.21) (xy -107.95 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "048b661e-ab0f-46f9-ba3c-4b9ae2ef7f4d")
-	)
-	(wire
-		(pts
 			(xy 25.4 113.03) (xy 20.32 113.03)
 		)
 		(stroke
@@ -8030,26 +7768,6 @@
 			(type default)
 		)
 		(uuid "09932ad2-ba89-4b33-954f-8e0c8668db8e")
-	)
-	(wire
-		(pts
-			(xy -144.78 90.17) (xy -138.43 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a045005-a1fb-4f83-bf35-682179621e25")
-	)
-	(wire
-		(pts
-			(xy -181.61 66.04) (xy -181.61 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aea7518-d863-4aaf-839f-aa7d5e27f04f")
 	)
 	(wire
 		(pts
@@ -8073,26 +7791,6 @@
 	)
 	(wire
 		(pts
-			(xy -125.73 36.83) (xy -125.73 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11917084-7450-4de1-ab69-231295cfc69e")
-	)
-	(wire
-		(pts
-			(xy -125.73 97.79) (xy -125.73 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136e6f7c-6f13-4553-88fd-ab27e0c2def6")
-	)
-	(wire
-		(pts
 			(xy 57.15 93.98) (xy 57.15 95.25)
 		)
 		(stroke
@@ -8103,13 +7801,43 @@
 	)
 	(wire
 		(pts
-			(xy -125.73 50.8) (xy -107.95 50.8)
+			(xy 22.86 142.24) (xy 22.86 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1883f980-7dd9-4e29-8514-0907fff2b9d8")
+		(uuid "17f08922-95af-4a7b-aefa-fac599bab32e")
+	)
+	(wire
+		(pts
+			(xy 71.12 151.13) (xy 92.71 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e29c1b-8ac9-4d91-b75d-e8f8de4db164")
+	)
+	(wire
+		(pts
+			(xy 22.86 156.21) (xy 22.86 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1a8d6e-b9ce-4c6e-a969-4b39e78d6c34")
+	)
+	(wire
+		(pts
+			(xy 173.99 116.84) (xy 184.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f877bb8-131c-42d5-87df-4adcda685b39")
 	)
 	(wire
 		(pts
@@ -8133,13 +7861,13 @@
 	)
 	(wire
 		(pts
-			(xy -125.73 15.24) (xy -125.73 16.51)
+			(xy 71.12 153.67) (xy 80.01 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25ce3953-21b4-4258-becc-f5d538db1fe8")
+		(uuid "269b735d-64c1-4fbc-ae4b-daa752de27cd")
 	)
 	(wire
 		(pts
@@ -8153,7 +7881,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 162.56) (xy 54.61 162.56)
+			(xy 53.34 163.83) (xy 62.23 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8163,13 +7891,13 @@
 	)
 	(wire
 		(pts
-			(xy -144.78 15.24) (xy -144.78 16.51)
+			(xy 22.86 153.67) (xy 35.56 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c05f497-ebe9-45f7-aa50-012e678535ae")
+		(uuid "2c4b5c97-e4f9-4239-ac66-25ae7bf155f7")
 	)
 	(wire
 		(pts
@@ -8183,27 +7911,7 @@
 	)
 	(wire
 		(pts
-			(xy -125.73 77.47) (xy -125.73 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e4d7a39-76bf-441d-a174-61c8acc27f7f")
-	)
-	(wire
-		(pts
-			(xy -149.86 7.62) (xy -144.78 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ebc79e6-66b4-48f5-9c84-147dce5273db")
-	)
-	(wire
-		(pts
-			(xy -43.18 135.89) (xy -43.18 137.16)
+			(xy -128.27 158.75) (xy -128.27 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8213,23 +7921,23 @@
 	)
 	(wire
 		(pts
-			(xy -125.73 7.62) (xy -107.95 7.62)
+			(xy 96.52 154.94) (xy 96.52 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "362cd5bc-651e-40eb-8b01-d6adacd73cad")
+		(uuid "33c54975-ba7a-4fa8-8aed-9055f0233660")
 	)
 	(wire
 		(pts
-			(xy -144.78 69.85) (xy -138.43 69.85)
+			(xy 71.12 146.05) (xy 86.36 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bf7a7c8-fd6c-4d3b-b161-0fad7990811b")
+		(uuid "38e86735-87b1-4255-a0fa-d39aa8495248")
 	)
 	(wire
 		(pts
@@ -8263,16 +7971,6 @@
 	)
 	(wire
 		(pts
-			(xy -181.61 7.62) (xy -165.1 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49564ab9-863f-4b1a-b1ae-2f6b11feffdc")
-	)
-	(wire
-		(pts
 			(xy 25.4 115.57) (xy 20.32 115.57)
 		)
 		(stroke
@@ -8280,16 +7978,6 @@
 			(type default)
 		)
 		(uuid "4a28c4d1-4354-4e62-b9e9-85a49fcdc168")
-	)
-	(wire
-		(pts
-			(xy -130.81 29.21) (xy -125.73 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c854d7b-176e-44ed-b3b4-d8f00c25653b")
 	)
 	(wire
 		(pts
@@ -8323,13 +8011,13 @@
 	)
 	(wire
 		(pts
-			(xy -181.61 25.4) (xy -181.61 29.21)
+			(xy 71.12 148.59) (xy 86.36 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55c0f6d8-7b4a-4e93-9621-0d739a53443f")
+		(uuid "529d6a8d-6b0c-4dc5-ab55-3c6e89abb752")
 	)
 	(wire
 		(pts
@@ -8343,27 +8031,7 @@
 	)
 	(wire
 		(pts
-			(xy -149.86 90.17) (xy -144.78 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "601cc829-1d40-46af-82ce-321ab7ba5b06")
-	)
-	(wire
-		(pts
-			(xy -144.78 50.8) (xy -138.43 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "602298e7-d4e5-4325-ae6f-dce1dcd5bb4a")
-	)
-	(wire
-		(pts
-			(xy -33.02 102.87) (xy -33.02 104.14)
+			(xy 77.47 250.19) (xy 77.47 251.46)
 		)
 		(stroke
 			(width 0)
@@ -8380,16 +8048,6 @@
 			(type default)
 		)
 		(uuid "6a45789b-3855-401f-8139-3c734f7f52f9")
-	)
-	(wire
-		(pts
-			(xy -144.78 29.21) (xy -138.43 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ebd2857-b98d-4ecd-877d-f433b268ac14")
 	)
 	(wire
 		(pts
@@ -8433,33 +8091,13 @@
 	)
 	(wire
 		(pts
-			(xy -144.78 7.62) (xy -138.43 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78e03f04-a168-439d-b453-03b8d73d2f9e")
-	)
-	(wire
-		(pts
-			(xy -44.45 135.89) (xy -43.18 135.89)
+			(xy -129.54 158.75) (xy -128.27 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7aaad5b7-f497-48aa-b367-acae41de3100")
-	)
-	(wire
-		(pts
-			(xy -149.86 50.8) (xy -144.78 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7abc53ac-e90e-4504-86a8-87e32d395376")
 	)
 	(wire
 		(pts
@@ -8483,16 +8121,6 @@
 	)
 	(wire
 		(pts
-			(xy -149.86 29.21) (xy -144.78 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c557ae5-36f3-4044-bdca-79347269af07")
-	)
-	(wire
-		(pts
 			(xy 401.32 78.74) (xy 401.32 81.28)
 		)
 		(stroke
@@ -8503,13 +8131,43 @@
 	)
 	(wire
 		(pts
-			(xy -130.81 50.8) (xy -125.73 50.8)
+			(xy 173.99 68.58) (xy 184.15 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "894eae70-9148-4f7c-b602-e7c5cf54052e")
+		(uuid "811ba6b6-31ed-43fa-a758-7df6dfd00133")
+	)
+	(wire
+		(pts
+			(xy 92.71 151.13) (xy 92.71 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812e87f5-f566-43b1-af62-97cdbb37e69e")
+	)
+	(wire
+		(pts
+			(xy 196.85 182.88) (xy 196.85 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd9c0ab-7eb6-4d5a-a834-62dc21bb16ca")
+	)
+	(wire
+		(pts
+			(xy 86.36 146.05) (xy 86.36 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c902f46-ee39-4278-9107-d664cc3095d9")
 	)
 	(wire
 		(pts
@@ -8523,13 +8181,13 @@
 	)
 	(wire
 		(pts
-			(xy -125.73 58.42) (xy -125.73 59.69)
+			(xy 22.86 143.51) (xy 35.56 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "961c8f4d-e703-4cd3-a627-a9a81b8dced8")
+		(uuid "9269644d-b084-4a4e-9ec0-422b9eb29a58")
 	)
 	(wire
 		(pts
@@ -8553,33 +8211,13 @@
 	)
 	(wire
 		(pts
-			(xy -181.61 3.81) (xy -181.61 7.62)
+			(xy 22.86 153.67) (xy 22.86 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c755895-1d25-427d-9c7a-9ddbd2179490")
-	)
-	(wire
-		(pts
-			(xy -125.73 69.85) (xy -107.95 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a17ef2cc-ed4e-4429-9e67-2861f7e910cd")
-	)
-	(wire
-		(pts
-			(xy -130.81 69.85) (xy -125.73 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51e1897-a2a3-4e70-86db-04d65b987e61")
+		(uuid "a56e97ab-6675-4e9d-b6ea-cffe1499dc4c")
 	)
 	(wire
 		(pts
@@ -8593,26 +8231,6 @@
 	)
 	(wire
 		(pts
-			(xy -149.86 69.85) (xy -144.78 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa226a40-79b5-4ceb-a731-d418f6a595e9")
-	)
-	(wire
-		(pts
-			(xy -181.61 46.99) (xy -181.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab14293e-eccb-4fa2-8e7b-5a8b91235b85")
-	)
-	(wire
-		(pts
 			(xy 55.88 91.44) (xy 59.69 91.44)
 		)
 		(stroke
@@ -8620,16 +8238,6 @@
 			(type default)
 		)
 		(uuid "acbc076e-c6bc-4ec7-8571-85ca2d244d23")
-	)
-	(wire
-		(pts
-			(xy -181.61 50.8) (xy -165.1 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aecea8d2-3804-4e9f-b764-cc5dbcdb2f25")
 	)
 	(wire
 		(pts
@@ -8643,16 +8251,6 @@
 	)
 	(wire
 		(pts
-			(xy -144.78 77.47) (xy -144.78 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1489205-43f2-4a22-9ba1-b59c26f52dfb")
-	)
-	(wire
-		(pts
 			(xy 33.02 29.21) (xy 45.72 29.21)
 		)
 		(stroke
@@ -8663,33 +8261,23 @@
 	)
 	(wire
 		(pts
-			(xy -181.61 86.36) (xy -181.61 90.17)
+			(xy 71.12 156.21) (xy 80.01 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6057175-f5a1-4533-9286-daffba0b4b2a")
+		(uuid "b81f2000-8133-45c8-8fe9-3832b9c3785b")
 	)
 	(wire
 		(pts
-			(xy -144.78 97.79) (xy -144.78 99.06)
+			(xy 96.52 153.67) (xy 96.52 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7ed8153-bd83-4786-abe9-0a4eb2830772")
-	)
-	(wire
-		(pts
-			(xy -125.73 90.17) (xy -107.95 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8a45196-e620-4084-93e4-996aadce8f57")
+		(uuid "b8d1c337-51cd-4c31-8b39-9e7f3f443409")
 	)
 	(wire
 		(pts
@@ -8700,16 +8288,6 @@
 			(type default)
 		)
 		(uuid "b972a5ba-6913-4f3f-94ef-09c7a636ade6")
-	)
-	(wire
-		(pts
-			(xy -144.78 36.83) (xy -144.78 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f262f5-1ab9-499b-8f54-69f43c2fe1f0")
 	)
 	(wire
 		(pts
@@ -8733,6 +8311,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 146.05) (xy 35.56 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca26b56b-ff7f-43f6-a03c-fb45ad65c272")
+	)
+	(wire
+		(pts
 			(xy 22.86 118.11) (xy 25.4 118.11)
 		)
 		(stroke
@@ -8753,33 +8341,23 @@
 	)
 	(wire
 		(pts
-			(xy -181.61 69.85) (xy -165.1 69.85)
+			(xy 86.36 146.05) (xy 96.52 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0c63c0b-2590-4934-b57e-81f95ba70852")
+		(uuid "d083010b-9462-427f-a2dd-e5959370bbe4")
 	)
 	(wire
 		(pts
-			(xy -130.81 90.17) (xy -125.73 90.17)
+			(xy 22.86 156.21) (xy 35.56 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d895b6af-a4a8-4de7-9324-2fa3fbcea898")
-	)
-	(wire
-		(pts
-			(xy -181.61 90.17) (xy -165.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc688085-76eb-4581-926f-7197ca5cbcb6")
+		(uuid "d508da06-5536-4c6e-840f-1130d8c95098")
 	)
 	(wire
 		(pts
@@ -8793,7 +8371,7 @@
 	)
 	(wire
 		(pts
-			(xy -34.29 102.87) (xy -33.02 102.87)
+			(xy 76.2 250.19) (xy 77.47 250.19)
 		)
 		(stroke
 			(width 0)
@@ -8823,6 +8401,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 154.94) (xy 96.52 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ccdc90-7dfc-4562-a06c-cdc011ff3cba")
+	)
+	(wire
+		(pts
 			(xy 55.88 113.03) (xy 64.77 113.03)
 		)
 		(stroke
@@ -8843,17 +8431,17 @@
 	)
 	(wire
 		(pts
-			(xy -144.78 58.42) (xy -144.78 59.69)
+			(xy 22.86 146.05) (xy 22.86 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f568e86d-04bb-43e5-9b8a-6024be7f77ed")
+		(uuid "ee07c987-503f-4a89-80fd-7f619c8a7c55")
 	)
 	(wire
 		(pts
-			(xy 45.72 160.02) (xy 45.72 162.56)
+			(xy 53.34 161.29) (xy 53.34 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8863,26 +8451,16 @@
 	)
 	(wire
 		(pts
-			(xy -181.61 29.21) (xy -165.1 29.21)
+			(xy 71.12 143.51) (xy 77.47 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa4d7b39-5372-46e6-a864-1806727e639d")
-	)
-	(wire
-		(pts
-			(xy -130.81 7.62) (xy -125.73 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4116fa-ee64-4e3d-ad00-3b4acb057cd6")
+		(uuid "fcd04f32-4c6f-4e6a-9567-52cc24385f32")
 	)
 	(label "OUT ANT"
-		(at 54.61 162.56 180)
+		(at 62.23 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8900,6 +8478,16 @@
 			(justify left bottom)
 		)
 		(uuid "2a1ae96c-59cd-4995-8575-23b92fee5919")
+	)
+	(label "1PPS"
+		(at 173.99 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c82e88f-225a-4f7d-8a67-24b874177037")
 	)
 	(label "OUT ANT"
 		(at 64.77 113.03 180)
@@ -8931,6 +8519,26 @@
 		)
 		(uuid "5c59ceb6-5ad6-4bc2-93c9-024cb7a58997")
 	)
+	(label "1PPS"
+		(at 77.47 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d0975e6-de04-4982-a1b4-6de41c5670e3")
+	)
+	(label "data in"
+		(at 80.01 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79fb9419-c03f-43c6-8c41-ccd62f03ed30")
+	)
 	(label "ANTENNA"
 		(at 16.51 66.04 0)
 		(effects
@@ -8961,55 +8569,35 @@
 		)
 		(uuid "83b53707-30fe-487b-9cb6-f3a92fd8d7a4")
 	)
-	(label "SUN SENSOR4"
-		(at -107.95 69.85 180)
+	(label "data in"
+		(at 173.99 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "aae0dd6b-7c32-456f-8741-5f78b2d34a5a")
+		(uuid "8976127b-4d35-44e6-b204-2ad56b0d4759")
 	)
-	(label "SUN SENSOR3"
-		(at -107.95 50.8 180)
+	(label "data out"
+		(at 196.85 193.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "c9d8cc09-ea47-4ce2-b13f-15109950be39")
+		(uuid "9bd74023-7c11-4814-9a20-29592d15c2f8")
 	)
-	(label "SUN SENSOR2"
-		(at -107.95 29.21 180)
+	(label "data out"
+		(at 80.01 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e82817cd-ef57-4f5b-a4e0-f7a2e06a41b3")
-	)
-	(label "SUN SENSOR5"
-		(at -107.95 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ea4fd622-1e70-4b44-8a8e-3cc4c3146590")
-	)
-	(label "SUN SENSOR1"
-		(at -107.95 7.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f556a6ca-b0f5-4abf-98d2-589050a01e52")
+		(uuid "c04c40e5-1508-4eef-825d-443f2016a3cb")
 	)
 	(global_label "GP4"
 		(shape input)
@@ -12114,15 +11702,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at -181.61 66.04 0)
+		(at 22.86 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0380b07c-8bb5-42df-96fa-529054287211")
-		(property "Reference" "#PWR013"
-			(at -181.61 69.85 0)
+		(uuid "047a1e66-79bd-4957-8f2d-17c70ef5b945")
+		(property "Reference" "#PWR07"
+			(at 22.86 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,7 +11719,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at -181.229 62.7888 90)
+			(at 19.812 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,7 +11728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -181.61 66.04 0)
+			(at 22.86 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12149,7 +11737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -181.61 66.04 0)
+			(at 22.86 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12158,7 +11746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -181.61 66.04 0)
+			(at 22.86 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12166,12 +11754,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d09cb2f-0381-454b-bd52-79e183d6ba62")
+			(uuid "b0e29ff7-0de6-4ed5-81c1-22d3bb4f504a")
 		)
 		(instances
 			(project "ADCS_Teidesat"
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR013")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12179,7 +11767,7 @@
 	)
 	(symbol
 		(lib_id "L86-M33:L86-M33")
-		(at 27.94 142.24 0)
+		(at 35.56 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12188,7 +11776,7 @@
 		(fields_autoplaced yes)
 		(uuid "08c8e572-15fa-4e37-afde-328bb95106b3")
 		(property "Reference" "IC2"
-			(at 45.72 134.62 0)
+			(at 53.34 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12196,7 +11784,7 @@
 			)
 		)
 		(property "Value" "L86-M33"
-			(at 45.72 137.16 0)
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,7 +11792,7 @@
 			)
 		)
 		(property "Footprint" "Huellas ADCS:L80-M39"
-			(at 59.69 237.16 0)
+			(at 67.31 238.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12214,7 +11802,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/d9c8c7b89a7ac852e6b026dd2100f946.pdf"
-			(at 59.69 337.16 0)
+			(at 67.31 338.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12224,7 +11812,7 @@
 			)
 		)
 		(property "Description" "GPS/GLONASS receiver + antenna pack of 1"
-			(at 27.94 142.24 0)
+			(at 35.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12233,7 +11821,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 59.69 537.16 0)
+			(at 67.31 538.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12243,7 +11831,7 @@
 			)
 		)
 		(property "Mouser Part Number" "277-L86-M33"
-			(at 59.69 637.16 0)
+			(at 67.31 638.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12253,7 +11841,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Quectel/L86-M33?qs=GedFDFLaBXFvEvNOo6IDYg%3D%3D"
-			(at 59.69 737.16 0)
+			(at 67.31 738.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12263,7 +11851,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Quectel"
-			(at 59.69 837.16 0)
+			(at 67.31 838.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12273,7 +11861,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "L86-M33"
-			(at 59.69 937.16 0)
+			(at 67.31 938.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,208 +11983,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at -144.78 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c8171fe-05c2-4993-9ac4-1b9feea77083")
-		(property "Reference" "#PWR011"
-			(at -144.78 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -144.78 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d76d9f17-71e1-4a99-a16d-d910578dfee3")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -144.78 16.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a3ddbba-16dd-4967-abc9-c8eaae1f6e74")
-		(property "Reference" "#PWR05"
-			(at -144.78 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -144.78 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -144.78 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -144.78 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -144.78 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08ee7e79-8e5a-4d08-91b2-6af5e95c2b5f")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -125.73 16.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2443e47d-1df7-498e-ac76-69d64e88f52a")
-		(property "Reference" "#PWR06"
-			(at -125.73 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -125.73 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -125.73 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -125.73 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -125.73 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e67de742-d66f-4421-a895-0654d4a426f9")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at -181.61 86.36 0)
+		(at 86.36 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "24e15abe-6efa-4f9e-8484-b4f40bce25bc")
-		(property "Reference" "#PWR016"
-			(at -181.61 90.17 0)
+		(uuid "1a8b1fdd-e432-4d0b-905b-7a12d43bb6f6")
+		(property "Reference" "#PWR04"
+			(at 86.36 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12605,7 +12001,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at -181.229 83.1088 90)
+			(at 83.312 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12614,7 +12010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -181.61 86.36 0)
+			(at 86.36 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12623,7 +12019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -181.61 86.36 0)
+			(at 86.36 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12632,7 +12028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -181.61 86.36 0)
+			(at 86.36 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,12 +12036,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c35e2df6-f936-408c-9327-78eb5bc8c969")
+			(uuid "151b13bc-23b1-49fa-bc7f-bed008a66e26")
 		)
 		(instances
 			(project "ADCS_Teidesat"
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR016")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12653,32 +12049,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at -134.62 69.85 90)
+		(at 22.86 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25f4e63f-1a8c-498d-83b6-ebf89488e2d0")
-		(property "Reference" "R8"
-			(at -134.62 63.5 90)
+		(uuid "1f134662-0162-492b-8d1e-20d7097f1346")
+		(property "Reference" "R1"
+			(at 25.4 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at -134.62 66.04 90)
+		(property "Value" "10k"
+			(at 25.4 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at -134.62 71.628 90)
+			(at 21.082 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12687,7 +12085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -134.62 69.85 0)
+			(at 22.86 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12696,144 +12094,24 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -134.62 69.85 0)
+			(at 22.86 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "656211b3-f08e-4ab9-9e49-39c73c7827f1")
-		)
-		(pin "1"
-			(uuid "40c2ebe4-5bbe-4a54-b9e7-5431079f6fbe")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VBP104SR:VBP104SR")
-		(at -165.1 7.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28931f2f-5c0b-4534-9269-1fc7afcf75f0")
-		(property "Reference" "D1"
-			(at -157.48 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBP104SR"
-			(at -157.48 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Huellas ADCS:SOD6439X130N"
-			(at -153.67 105.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/122422.pdf"
-			(at -153.67 205.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PIN Photodiode 430-1100nm SMD2 RGW Vishay VBP104SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing"
-			(at -165.1 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at -153.67 405.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "782-VBP104SR"
-			(at -153.67 505.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VBP104SR?qs=Uj7aA%252BCqp8ZjziudB%252BkJcQ%3D%3D"
-			(at -153.67 605.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -153.67 705.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VBP104SR"
-			(at -153.67 805.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "c7889c59-4363-41fa-baa1-7dc9feb2f4ae")
+			(uuid "9d29e028-59d2-4dee-97cf-56f7b360baf8")
 		)
 		(pin "2"
-			(uuid "17df18bb-ecd3-4e6a-b1aa-cc9e82909468")
+			(uuid "29fcf6d3-82ea-4f3e-a3c7-8e123ef1a9f8")
 		)
 		(instances
 			(project ""
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "D1")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12841,71 +12119,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -144.78 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dd1ab38-0753-4413-b5fa-e7675fed83b3")
-		(property "Reference" "#PWR017"
-			(at -144.78 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -144.78 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbc58b15-a268-422b-b9ee-bcac68d693a1")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -43.18 137.16 0)
+		(at -128.27 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12913,7 +12127,7 @@
 		(dnp no)
 		(uuid "37ac31a0-c3a0-41ac-8f6b-012958435e63")
 		(property "Reference" "#PWR02"
-			(at -43.18 143.51 0)
+			(at -128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +12136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -43.053 141.5542 0)
+			(at -128.143 164.4142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12930,7 +12144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -43.18 137.16 0)
+			(at -128.27 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12939,7 +12153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -43.18 137.16 0)
+			(at -128.27 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +12162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -43.18 137.16 0)
+			(at -128.27 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12968,8 +12182,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 96.52 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38255098-c4b4-440a-b146-52bf500e775e")
+		(property "Reference" "C5"
+			(at 100.076 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 100.076 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.4852 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c82027d-4488-4ac4-8c6c-8ab1eaaec9ef")
+		)
+		(pin "1"
+			(uuid "e8013720-b2aa-4939-80f1-7e7f7b40d422")
+		)
+		(instances
+			(project "ADCS_Teidesat"
+				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BHI385:BHI385")
-		(at -74.93 16.51 0)
+		(at 33.02 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12978,7 +12261,7 @@
 		(fields_autoplaced yes)
 		(uuid "39182167-56b7-495e-9858-e94b34ffd569")
 		(property "Reference" "IC1"
-			(at -57.15 8.89 0)
+			(at 50.8 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +12269,7 @@
 			)
 		)
 		(property "Value" "BHI385"
-			(at -57.15 11.43 0)
+			(at 50.8 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12994,7 +12277,7 @@
 			)
 		)
 		(property "Footprint" "Huellas ADCS:BHI385"
-			(at -43.18 111.43 0)
+			(at 64.77 287.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13004,7 +12287,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bhi385-ds000.pdf"
-			(at -43.18 211.43 0)
+			(at 64.77 387.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13014,7 +12297,7 @@
 			)
 		)
 		(property "Description" "Accelerometer, Gyroscope Sensor I2C, SPI Output -40C ~ 85C"
-			(at -74.93 16.51 0)
+			(at 33.02 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13023,7 +12306,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at -43.18 411.43 0)
+			(at 64.77 587.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13033,7 +12316,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -43.18 511.43 0)
+			(at 64.77 687.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13043,7 +12326,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -43.18 611.43 0)
+			(at 64.77 787.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13053,7 +12336,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "BOSCH"
-			(at -43.18 711.43 0)
+			(at 64.77 887.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13063,7 +12346,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BHI385"
-			(at -43.18 811.43 0)
+			(at 64.77 987.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13142,141 +12425,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at -144.78 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b440e5c-7e0a-49a3-9ee9-35f6f5379a61")
-		(property "Reference" "R9"
-			(at -142.24 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47K"
-			(at -142.24 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -146.558 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -144.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -144.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68869eb2-9d69-4efc-b1be-d1f19d72fe80")
-		)
-		(pin "2"
-			(uuid "c797800c-21fe-4f6e-8f84-d55fc34d99ed")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at -181.61 3.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ca2d42b-3412-4c1f-a4a3-c4650d89b5be")
-		(property "Reference" "#PWR04"
-			(at -181.61 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at -181.229 0.5588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -181.61 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -181.61 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -181.61 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf9d7c25-a179-4961-b171-526bc16e72bb")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 33.02 39.37 0)
 		(unit 1)
@@ -13341,140 +12489,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at -125.73 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ea5c618-427c-4ec8-8caa-88b5ece12b84")
-		(property "Reference" "#PWR012"
-			(at -125.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -125.73 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -125.73 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -125.73 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -125.73 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f34a1fe9-f2a5-4248-a650-28f1ef0a9e5e")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -134.62 7.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f96e771-f409-43cd-a9ec-bdec4b4e5e76")
-		(property "Reference" "R2"
-			(at -134.62 1.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at -134.62 3.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -134.62 9.398 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -134.62 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -134.62 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d554b64d-94ff-4e68-bcd3-21cf6031c509")
-		)
-		(pin "1"
-			(uuid "c82100c1-eb5b-4ec8-8e20-b119c8e60008")
-		)
-		(instances
-			(project ""
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "THVD1400DR:THVD1400DR")
-		(at -69.85 128.27 0)
+		(at -154.94 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13483,7 +12499,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d089012-8609-48ad-a65d-951db1f27c8f")
 		(property "Reference" "IC4"
-			(at -57.15 120.65 0)
+			(at -142.24 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13491,7 +12507,7 @@
 			)
 		)
 		(property "Value" "THVD1400DR"
-			(at -57.15 123.19 0)
+			(at -142.24 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,7 +12515,7 @@
 			)
 		)
 		(property "Footprint" "Huellas ADCS:SOIC127P600X175-8N"
-			(at -48.26 223.19 0)
+			(at -133.35 246.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +12525,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/thvd1400dr/texas-instruments"
-			(at -48.26 323.19 0)
+			(at -133.35 346.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13519,7 +12535,7 @@
 			)
 		)
 		(property "Description" "RS-422/RS-485 Interface IC 3.3-V to 5-V RS-485 transceiver in small package with +/-8-kV IEC ESD protection 8-SOIC -40 to 125"
-			(at -69.85 128.27 0)
+			(at -154.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13528,7 +12544,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at -48.26 523.19 0)
+			(at -133.35 546.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13538,7 +12554,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-THVD1400DR"
-			(at -48.26 623.19 0)
+			(at -133.35 646.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13548,7 +12564,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1400DR?qs=eP2BKZSCXI7bzZdDjIHgHQ%3D%3D"
-			(at -48.26 723.19 0)
+			(at -133.35 746.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13558,7 +12574,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at -48.26 823.19 0)
+			(at -133.35 846.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13568,7 +12584,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "THVD1400DR"
-			(at -48.26 923.19 0)
+			(at -133.35 946.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14178,7 +13194,7 @@
 	)
 	(symbol
 		(lib_id "LIS2DS12TR:LIS2DS12TR")
-		(at -57.15 92.71 0)
+		(at 53.34 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14187,7 +13203,7 @@
 		(fields_autoplaced yes)
 		(uuid "715178c6-5455-4754-a767-709133d9d715")
 		(property "Reference" "U1"
-			(at -57.15 77.47 0)
+			(at 53.34 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14195,7 +13211,7 @@
 			)
 		)
 		(property "Value" "LIS2DS12TR"
-			(at -57.15 80.01 0)
+			(at 53.34 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14203,7 +13219,7 @@
 			)
 		)
 		(property "Footprint" "Huellas ADCS:LGA12R50P4X4_200X200X86"
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,7 +13229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14222,7 +13238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14231,7 +13247,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "497-16261-1-ND"
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14241,7 +13257,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LIS2DS12TR/STMicroelectronics/view-part/?ref=snap"
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14251,7 +13267,7 @@
 			)
 		)
 		(property "Description_1" "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 6.25Hz ~ 3.2kHz 12-LGA (2x2)"
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14261,7 +13277,7 @@
 			)
 		)
 		(property "Package" "LGA-12 STMicroelectronics"
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14271,7 +13287,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LIS2DS12TR/STMicroelectronics/view-part/?ref=eda"
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14281,7 +13297,7 @@
 			)
 		)
 		(property "MF" "STMicroelectronics"
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14291,7 +13307,7 @@
 			)
 		)
 		(property "MP" "LIS2DS12TR"
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14301,7 +13317,7 @@
 			)
 		)
 		(property "MANUFACTURER" "STMicroelectronics"
-			(at -57.15 92.71 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14347,70 +13363,6 @@
 			(project ""
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -144.78 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7178e116-90c6-46fe-871d-650e61d691fb")
-		(property "Reference" "#PWR08"
-			(at -144.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -144.78 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fff026a2-671d-4f86-aaf1-fbd029a772b3")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14486,76 +13438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at -144.78 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "763bbb21-3117-4a42-ab40-3d8bc22fc143")
-		(property "Reference" "R5"
-			(at -142.24 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47K"
-			(at -142.24 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -146.558 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -144.78 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -144.78 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f0289fe-4921-4f93-a641-92e032b8f52f")
-		)
-		(pin "2"
-			(uuid "704696f7-d9a7-4736-a291-770d32dec3eb")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 26.67 72.39 0)
 		(unit 1)
@@ -14614,71 +13496,6 @@
 			(project "ADCS_Teidesat"
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at -181.61 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "791a1ef8-7627-4153-9e73-ad819c543f91")
-		(property "Reference" "#PWR07"
-			(at -181.61 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at -181.229 22.1488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -181.61 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -181.61 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -181.61 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d75bbd0-1867-49bb-92a8-bbc3e217edea")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15233,278 +14050,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -125.73 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87dbd516-7cce-460a-8d25-d32991ef8a22")
-		(property "Reference" "#PWR09"
-			(at -125.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -125.73 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -125.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -125.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -125.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19ee4f3d-549e-44a3-8719-fe56792c935d")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -144.78 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b0519fa-7775-4334-9415-ac77f6f038d6")
-		(property "Reference" "R3"
-			(at -142.24 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47K"
-			(at -142.24 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -146.558 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -144.78 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -144.78 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd85b2e4-c3dd-4ef8-98fc-467b47b42c1e")
-		)
-		(pin "2"
-			(uuid "5f1f13c1-421e-41d8-a379-5e0ea76e766c")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -144.78 11.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9136002e-9292-48b9-9017-22abd1af44c2")
-		(property "Reference" "R1"
-			(at -142.24 10.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47K"
-			(at -142.24 12.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -146.558 11.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -144.78 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -144.78 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c1585a6-e49e-4a44-a9dc-4db72a42cc68")
-		)
-		(pin "2"
-			(uuid "254bd778-9692-4fc6-b18f-639c1ce56183")
-		)
-		(instances
-			(project ""
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -134.62 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "958101cb-fb64-44d7-aedb-a43856024f87")
-		(property "Reference" "R6"
-			(at -134.62 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at -134.62 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -134.62 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -134.62 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -134.62 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4376cd6c-bc8a-4749-a245-73626f528bb4")
-		)
-		(pin "1"
-			(uuid "9cc872b3-4b01-4c33-b9e9-2cffd8795a87")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 57.15 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15562,724 +14107,6 @@
 			(project "ADCS_Teidesat"
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -144.78 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cf56aab-5b29-40ab-acdf-074b9aaf6091")
-		(property "Reference" "R7"
-			(at -142.24 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47K"
-			(at -142.24 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -146.558 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be1a31d8-9214-4eaa-b0b6-5da5364dd24e")
-		)
-		(pin "2"
-			(uuid "ef1f2bec-b425-4c05-ae22-155215012c82")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -144.78 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e961446-d1ac-494a-8eee-3d3101c25a0c")
-		(property "Reference" "#PWR014"
-			(at -144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -144.78 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -144.78 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -144.78 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -144.78 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c401b59-9cbd-45c7-b7ba-d21b64aa8c77")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at -125.73 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ea3e003-ab1d-49f8-9b2c-06d1df2bc9d2")
-		(property "Reference" "C7"
-			(at -121.92 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at -121.92 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -124.7648 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -125.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -125.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbdfadae-48f3-4de1-bfe9-d273f9b58f95")
-		)
-		(pin "2"
-			(uuid "5b9c5e24-40ae-4b6b-bbab-713cbea2a69d")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at -125.73 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fe98139-fc47-4050-8306-d1f60093ac1f")
-		(property "Reference" "C8"
-			(at -121.92 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at -121.92 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -124.7648 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -125.73 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -125.73 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e5d3fca-0952-42db-a86a-cf3114ee1e30")
-		)
-		(pin "2"
-			(uuid "30689e28-bc82-4791-bb0b-4195204b53af")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VBP104SR:VBP104SR")
-		(at -165.1 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2a63db1-8fbd-4d1c-abfe-82b9329fff32")
-		(property "Reference" "D3"
-			(at -157.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBP104SR"
-			(at -157.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Huellas ADCS:SOD6439X130N"
-			(at -153.67 148.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/122422.pdf"
-			(at -153.67 248.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PIN Photodiode 430-1100nm SMD2 RGW Vishay VBP104SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing"
-			(at -165.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at -153.67 448.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "782-VBP104SR"
-			(at -153.67 548.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VBP104SR?qs=Uj7aA%252BCqp8ZjziudB%252BkJcQ%3D%3D"
-			(at -153.67 648.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -153.67 748.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VBP104SR"
-			(at -153.67 848.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18cc7443-8352-40df-9149-81557956628e")
-		)
-		(pin "2"
-			(uuid "076e92fa-ddb1-476b-875f-d533ff38e34e")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VBP104SR:VBP104SR")
-		(at -165.1 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4190267-7758-4261-8e56-39bc9076e5bf")
-		(property "Reference" "D2"
-			(at -157.48 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBP104SR"
-			(at -157.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Huellas ADCS:SOD6439X130N"
-			(at -153.67 126.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/122422.pdf"
-			(at -153.67 226.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PIN Photodiode 430-1100nm SMD2 RGW Vishay VBP104SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing"
-			(at -165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at -153.67 426.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "782-VBP104SR"
-			(at -153.67 526.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VBP104SR?qs=Uj7aA%252BCqp8ZjziudB%252BkJcQ%3D%3D"
-			(at -153.67 626.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -153.67 726.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VBP104SR"
-			(at -153.67 826.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "698c2c80-9a06-46f5-978f-62a2a69b9e9d")
-		)
-		(pin "2"
-			(uuid "182a24b4-194f-4dd7-a977-827d6d74b09c")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at -125.73 11.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7f2d71a-fe8d-49a0-8d26-5762e5fbb210")
-		(property "Reference" "C5"
-			(at -121.92 10.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at -121.92 12.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -124.7648 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -125.73 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -125.73 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a80d935b-9f5e-4ed8-8ab5-02406a10deaf")
-		)
-		(pin "2"
-			(uuid "7c55f060-6451-4911-8182-0f3240d36208")
-		)
-		(instances
-			(project ""
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -125.73 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "acaf0954-5cae-46b9-b117-786c45169331")
-		(property "Reference" "#PWR018"
-			(at -125.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -125.73 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -125.73 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -125.73 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -125.73 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf1c4b8b-8e43-41d2-9011-38cf94baf4fd")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at -125.73 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af746092-55e8-4982-abb3-b90e0171990f")
-		(property "Reference" "C9"
-			(at -121.92 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at -121.92 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -124.7648 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -125.73 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -125.73 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d1b22f5-d8e4-48ff-bf09-e921f320d7f8")
-		)
-		(pin "2"
-			(uuid "7d980986-dfb9-48bc-b6e4-3ac1f24ef377")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16415,142 +14242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at -134.62 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cacd4b4a-68f0-42ca-857a-6cc0ef104413")
-		(property "Reference" "R4"
-			(at -134.62 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at -134.62 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -134.62 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -134.62 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -134.62 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d8d3944-ac84-43ad-af60-cc1d7aabb253")
-		)
-		(pin "1"
-			(uuid "f15e51c1-cac7-41ae-991b-9ac0f2eb0e20")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -134.62 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfb8bc25-b4f2-4d48-acd4-e57905fc1f2c")
-		(property "Reference" "R10"
-			(at -134.62 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at -134.62 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -134.62 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f11ca8d3-6be0-40c9-9bfd-c29bc00d37f6")
-		)
-		(pin "1"
-			(uuid "56ae4aef-3c17-4dbb-b8b5-af6b4f2aab1d")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 20.32 116.84 0)
 		(unit 1)
@@ -16616,15 +14307,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -125.73 78.74 0)
+		(at 22.86 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1676c8a-c19e-489f-9b24-46c9dd6c4e41")
-		(property "Reference" "#PWR015"
-			(at -125.73 85.09 0)
+		(uuid "d4715cdf-549b-479b-b6c2-3b9003563655")
+		(property "Reference" "#PWR05"
+			(at 22.86 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16633,7 +14324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -125.73 83.058 0)
+			(at 20.32 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16641,7 +14332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -125.73 78.74 0)
+			(at 22.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16650,7 +14341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -125.73 78.74 0)
+			(at 22.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16659,7 +14350,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -125.73 78.74 0)
+			(at 22.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16667,65 +14358,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe92022a-3a6e-4341-a17f-e2eaafe18fd0")
+			(uuid "e84447f2-3810-457d-9cfd-831bf6a6f7f0")
 		)
 		(instances
 			(project "ADCS_Teidesat"
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR015")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "VBP104SR:VBP104SR")
-		(at -165.1 90.17 0)
+		(lib_id "power:GND")
+		(at 96.52 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1b1cee7-bb8f-4bd7-b114-0cf6b2d57bb2")
-		(property "Reference" "D5"
-			(at -157.48 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBP104SR"
-			(at -157.48 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Huellas ADCS:SOD6439X130N"
-			(at -153.67 187.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/122422.pdf"
-			(at -153.67 287.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PIN Photodiode 430-1100nm SMD2 RGW Vishay VBP104SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing"
-			(at -165.1 90.17 0)
+		(uuid "d8884078-429c-496c-b4b2-f13d6b8c75f7")
+		(property "Reference" "#PWR06"
+			(at 96.52 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16733,66 +14387,47 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.3"
-			(at -153.67 487.63 0)
+		(property "Value" "GND"
+			(at 93.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "782-VBP104SR"
-			(at -153.67 587.63 0)
+		(property "Datasheet" ""
+			(at 96.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VBP104SR?qs=Uj7aA%252BCqp8ZjziudB%252BkJcQ%3D%3D"
-			(at -153.67 687.63 0)
+		(property "Description" ""
+			(at 96.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -153.67 787.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VBP104SR"
-			(at -153.67 887.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "45d8c1fe-4f1c-4696-af71-b850cfd1ec3f")
-		)
-		(pin "2"
-			(uuid "ad44a389-8944-4852-85af-5dee8395da25")
+			(uuid "5a283854-c5f4-4027-8048-99de6e2b8535")
 		)
 		(instances
 			(project "ADCS_Teidesat"
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "D5")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16864,143 +14499,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at -125.73 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb422398-3a0c-4103-98ae-aa446fc83a8b")
-		(property "Reference" "C6"
-			(at -121.92 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at -121.92 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -124.7648 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -125.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -125.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a144c8c9-75d4-4ebe-9552-fcdcbb9d63e7")
-		)
-		(pin "2"
-			(uuid "4a7ca253-23c4-4b6f-9d0a-84778bcd464c")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at -181.61 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f213b794-c1f6-4de4-9c13-73a3bcf3085e")
-		(property "Reference" "#PWR010"
-			(at -181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at -181.229 43.7388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66911b78-cf2f-4ef0-98b3-23f4bc1bfa1b")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at -33.02 104.14 0)
+		(at 77.47 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17008,7 +14508,7 @@
 		(dnp no)
 		(uuid "f85b6754-c616-4599-b0d6-63e38b50b59a")
 		(property "Reference" "#PWR03"
-			(at -33.02 110.49 0)
+			(at 77.47 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17017,7 +14517,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -32.893 108.5342 0)
+			(at 77.597 255.8542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17025,7 +14525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -33.02 104.14 0)
+			(at 77.47 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17034,7 +14534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -33.02 104.14 0)
+			(at 77.47 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17043,7 +14543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -33.02 104.14 0)
+			(at 77.47 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17057,126 +14557,6 @@
 			(project "ADCS_Teidesat"
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VBP104SR:VBP104SR")
-		(at -165.1 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffcceddd-7be6-4cd9-979c-67ccb968ad86")
-		(property "Reference" "D4"
-			(at -157.48 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBP104SR"
-			(at -157.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Huellas ADCS:SOD6439X130N"
-			(at -153.67 167.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/122422.pdf"
-			(at -153.67 267.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PIN Photodiode 430-1100nm SMD2 RGW Vishay VBP104SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing"
-			(at -165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at -153.67 467.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "782-VBP104SR"
-			(at -153.67 567.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VBP104SR?qs=Uj7aA%252BCqp8ZjziudB%252BkJcQ%3D%3D"
-			(at -153.67 667.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -153.67 767.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VBP104SR"
-			(at -153.67 867.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33e88442-ac97-461a-85c9-31deb7d1b683")
-		)
-		(pin "2"
-			(uuid "5b6bfc75-60fb-43e3-9cb4-70d90749368e")
-		)
-		(instances
-			(project "ADCS_Teidesat"
-				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
-					(reference "D4")
 					(unit 1)
 				)
 			)
