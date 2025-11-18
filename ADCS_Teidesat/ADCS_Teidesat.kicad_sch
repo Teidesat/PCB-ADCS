@@ -11509,7 +11509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 18.542 222.25 90)
 			(effects
 				(font
@@ -11578,7 +11578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 51.7652 262.89 0)
 			(effects
 				(font
@@ -11713,7 +11713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 21.082 149.86 90)
 			(effects
 				(font
@@ -11976,7 +11976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.4852 153.67 0)
 			(effects
 				(font
@@ -12238,7 +12238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LSM6DSV16BXTR"
+		(property "Footprint" "Huellas ADCS:XDCR_LSM6DSV16XTR"
 			(at 85.09 310.82 0)
 			(effects
 				(font
@@ -13097,7 +13097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-12"
+		(property "Footprint" "Huellas ADCS:PQFN50P200X200X70-12N"
 			(at 189.23 328.6 0)
 			(effects
 				(font
@@ -13248,7 +13248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 33.9852 38.1 0)
 			(effects
 				(font
@@ -13928,7 +13928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.6548 245.11 0)
 			(effects
 				(font
@@ -14061,7 +14061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 241.3 0)
 			(effects
 				(font
@@ -14774,7 +14774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 215.5952 251.46 0)
 			(effects
 				(font
