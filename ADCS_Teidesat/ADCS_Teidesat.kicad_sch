@@ -9689,7 +9689,7 @@
 		)
 		(uuid "fe43ae4d-c9e3-4acf-87ec-8219b4388f03")
 	)
-	(label "INT 2"
+	(label "INT2"
 		(at 95.25 228.6 180)
 		(effects
 			(font
@@ -9939,7 +9939,7 @@
 		)
 		(uuid "9fb0a5a1-8780-4c33-9c8b-1cbd3c1aab6d")
 	)
-	(label "INT 1"
+	(label "INT1"
 		(at 34.29 231.14 0)
 		(effects
 			(font
