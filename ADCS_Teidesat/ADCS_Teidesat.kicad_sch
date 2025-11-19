@@ -7654,10 +7654,6 @@
 		(uuid "3610f615-9b99-40c0-8802-1753c44e76c6")
 	)
 	(no_connect
-		(at 288.29 60.96)
-		(uuid "3e72e5a8-6789-4c84-94ae-be19f62ed39f")
-	)
-	(no_connect
 		(at 356.87 101.6)
 		(uuid "3ecae75d-33fd-4db8-9b8c-3bdf204d5804")
 	)
@@ -7922,10 +7918,6 @@
 		(uuid "917ed48a-0177-4316-b2c3-27dbdf9f98b7")
 	)
 	(no_connect
-		(at 66.04 208.28)
-		(uuid "918b50ab-9296-48fc-af3f-cb67a2951013")
-	)
-	(no_connect
 		(at 356.87 43.18)
 		(uuid "918fc362-22ba-47d5-bca2-eee1ad4a2f0d")
 	)
@@ -8050,10 +8042,6 @@
 		(uuid "b3262a7c-7b0a-45c2-902f-824e69698a89")
 	)
 	(no_connect
-		(at 288.29 93.98)
-		(uuid "b3383277-7558-4f99-9d06-8825fc79bba1")
-	)
-	(no_connect
 		(at 356.87 93.98)
 		(uuid "b35d5045-695d-4e00-a4ae-1378bf233201")
 	)
@@ -8092,10 +8080,6 @@
 	(no_connect
 		(at 344.17 81.28)
 		(uuid "be337052-fcdf-4246-ae62-1ef4b1a33350")
-	)
-	(no_connect
-		(at 288.29 76.2)
-		(uuid "beef6aa1-f30a-4d43-8379-178b3fea6678")
 	)
 	(no_connect
 		(at 184.15 132.08)
@@ -8322,6 +8306,10 @@
 		(uuid "f0b98b3e-93ed-481f-9fba-2a8ad7e02e02")
 	)
 	(no_connect
+		(at 288.29 93.98)
+		(uuid "f15c01c3-93dc-40e2-8192-d1fc4d9101ae")
+	)
+	(no_connect
 		(at 356.87 88.9)
 		(uuid "f2240b82-7d4a-476a-9500-a58f5cdc7bba")
 	)
@@ -8451,7 +8439,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 199.39) (xy 63.5 208.28)
+			(xy 298.45 60.96) (xy 311.15 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ffd17d-1df4-4bf1-be55-799f73ec891c")
+	)
+	(wire
+		(pts
+			(xy 63.5 195.58) (xy 63.5 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8531,7 +8529,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 199.39) (xy 63.5 199.39)
+			(xy 73.66 195.58) (xy 63.5 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8701,6 +8699,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 76.2) (xy 309.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2837115a-91b8-4a01-8c1d-69159f1c2660")
+	)
+	(wire
+		(pts
 			(xy 196.85 186.69) (xy 196.85 182.88)
 		)
 		(stroke
@@ -8841,6 +8849,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 200.66) (xy 77.47 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ba247c-4498-4de1-bd86-5977599ad8fc")
+	)
+	(wire
+		(pts
 			(xy 25.4 115.57) (xy 20.32 115.57)
 		)
 		(stroke
@@ -8951,13 +8969,13 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 91.44) (xy 309.88 91.44)
+			(xy 66.04 208.28) (xy 66.04 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63a6cc16-6250-48df-8f84-be6b2f1bef8f")
+		(uuid "5ec44a5c-25b2-4b07-8432-ce21fd7054f7")
 	)
 	(wire
 		(pts
@@ -9148,6 +9166,16 @@
 			(type default)
 		)
 		(uuid "8c902f46-ee39-4278-9107-d664cc3095d9")
+	)
+	(wire
+		(pts
+			(xy 309.88 91.44) (xy 288.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dcafa97-35ae-4efe-9feb-abdfa4501343")
 	)
 	(wire
 		(pts
@@ -9501,6 +9529,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 60.96) (xy 290.83 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd049a8f-e2c1-4a27-b6b6-83b99ac89bb9")
+	)
+	(wire
+		(pts
 			(xy 81.28 36.83) (xy 81.28 38.1)
 		)
 		(stroke
@@ -9719,6 +9757,16 @@
 		)
 		(uuid "1e8a38f6-4c57-42ec-9246-ec9a69bc64ef")
 	)
+	(label "MAGNETÓMETRO"
+		(at 309.88 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "283c5b5b-bc03-432d-9566-eb8006bef4c2")
+	)
 	(label "OUT_OSC"
 		(at 173.99 99.06 0)
 		(effects
@@ -9849,6 +9897,26 @@
 		)
 		(uuid "79fb9419-c03f-43c6-8c41-ccd62f03ed30")
 	)
+	(label "CLOCK_IMU"
+		(at 309.88 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a8618c0-496c-4240-81e2-50cda6d78a31")
+	)
+	(label "SIMO_IMU"
+		(at 311.15 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d116123-b89d-4bba-bc66-47d5192688ef")
+	)
 	(label "ANTENNA"
 		(at 16.51 66.04 0)
 		(effects
@@ -9858,6 +9926,16 @@
 			(justify left bottom)
 		)
 		(uuid "7df32082-8dc6-4a5e-8d03-9d75071f36a6")
+	)
+	(label "CLOCK_IMU"
+		(at 77.47 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80370563-4838-4266-b9ca-41bbdd371aa6")
 	)
 	(label "OUT_OSC"
 		(at 90.17 34.29 180)
@@ -9919,7 +9997,7 @@
 		)
 		(uuid "9bd74023-7c11-4814-9a20-29592d15c2f8")
 	)
-	(label "IMU{slash}MAGNETÓMETRO"
+	(label "MAGNETÓMETRO"
 		(at 128.27 241.3 0)
 		(effects
 			(font
@@ -9928,16 +10006,6 @@
 			(justify left bottom)
 		)
 		(uuid "9f9220f0-4129-4f72-a0b8-b2cf5b4995ad")
-	)
-	(label "IMU{slash}MAGNETÓMETRO"
-		(at 309.88 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fb0a5a1-8780-4c33-9c8b-1cbd3c1aab6d")
 	)
 	(label "INT1"
 		(at 34.29 231.14 0)
@@ -9959,8 +10027,8 @@
 		)
 		(uuid "c04c40e5-1508-4eef-825d-443f2016a3cb")
 	)
-	(label "IMU{slash}MAGNETÓMETRO"
-		(at 83.82 199.39 180)
+	(label "SIMO_IMU"
+		(at 73.66 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12516,7 +12584,7 @@
 		(dnp no)
 		(uuid "6f1431a5-7ddf-49c9-a3fc-f2d55c22aa3c")
 		(property "Reference" "IC5"
-			(at 294.64 49.4598 0)
+			(at 297.434 41.3318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12524,7 +12592,7 @@
 			)
 		)
 		(property "Value" "TMS5703137DPGEQQ1"
-			(at 294.64 51.816 0)
+			(at 297.434 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13896,6 +13964,73 @@
 			(project ""
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 294.64 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8929d562-71e3-475d-8903-106fc921cd56")
+		(property "Reference" "R3"
+			(at 294.64 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 294.64 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 294.64 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 294.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e064ca41-343c-4bc2-a9ea-4cf52cb65eb9")
+		)
+		(pin "2"
+			(uuid "c9a46790-a19f-4818-8d33-9e6af8f435a7")
+		)
+		(instances
+			(project "ADCS_Teidesat"
+				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
+					(reference "R3")
 					(unit 1)
 				)
 			)
