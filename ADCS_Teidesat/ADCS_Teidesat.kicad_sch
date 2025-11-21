@@ -13749,10 +13749,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< HEAD
-=======
-		(fields_autoplaced yes)
->>>>>>> c966fef749b8c475f07092a16bb071015584fd78
 		(uuid "99f0c473-a0cc-49e9-bcbc-cf32f27fbd8e")
 		(property "Reference" "R1"
 			(at 22.86 222.2499 0)
