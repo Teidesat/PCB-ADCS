@@ -7116,6 +7116,12 @@
 		(uuid "9d81f816-9246-4a8e-a208-79a4238ff916")
 	)
 	(junction
+		(at 372.11 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5773685-698b-4f9f-849f-f26cdcfadbff")
+	)
+	(junction
 		(at 64.77 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7156,10 +7162,6 @@
 	(no_connect
 		(at 265.43 185.42)
 		(uuid "0369fd9e-3690-4c13-ba05-ced680a48377")
-	)
-	(no_connect
-		(at 378.46 82.55)
-		(uuid "03d7db14-ae80-4eee-98ae-07370db15061")
 	)
 	(no_connect
 		(at 234.95 185.42)
@@ -7506,10 +7508,6 @@
 		(uuid "6b1e5455-b94d-4be3-aee5-ca114fb34e82")
 	)
 	(no_connect
-		(at 391.16 80.01)
-		(uuid "6be9ac7d-bd41-42af-aa61-19d9733bc447")
-	)
-	(no_connect
 		(at 342.9 44.45)
 		(uuid "6c8df2be-5490-4949-a806-5b60c4a3415b")
 	)
@@ -7584,10 +7582,6 @@
 	(no_connect
 		(at 283.21 60.96)
 		(uuid "79717ec5-2c86-4d38-8ec3-e6b686555d95")
-	)
-	(no_connect
-		(at 378.46 80.01)
-		(uuid "79b95bbc-93ac-4b99-9fca-82fff7f0f583")
 	)
 	(no_connect
 		(at 378.46 57.15)
@@ -8160,6 +8154,16 @@
 			(type default)
 		)
 		(uuid "10939832-76a0-47be-9d18-7667c4154eda")
+	)
+	(wire
+		(pts
+			(xy 372.11 82.55) (xy 378.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1258aad1-5da8-4da0-b278-9c0b270f7247")
 	)
 	(wire
 		(pts
@@ -8813,6 +8817,16 @@
 	)
 	(wire
 		(pts
+			(xy 401.32 80.01) (xy 401.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b543a4-04b1-4286-91e2-298a44cf2ea5")
+	)
+	(wire
+		(pts
 			(xy 25.4 72.39) (xy 25.4 73.66)
 		)
 		(stroke
@@ -8993,6 +9007,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 80.01) (xy 401.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9225562c-3370-4095-a600-7e3d95ca9c20")
+	)
+	(wire
+		(pts
 			(xy 54.61 92.71) (xy 58.42 92.71)
 		)
 		(stroke
@@ -9030,6 +9054,16 @@
 			(type default)
 		)
 		(uuid "a251088f-4396-483a-b9e7-2e1aa16aaf53")
+	)
+	(wire
+		(pts
+			(xy 372.11 107.95) (xy 372.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38cd7fd-4a1e-45ec-bb31-5ee64cba0c31")
 	)
 	(wire
 		(pts
@@ -9213,6 +9247,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 80.01) (xy 378.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7856ff-ba14-4641-8835-ac46b33500d8")
+	)
+	(wire
+		(pts
 			(xy 205.74 251.46) (xy 217.17 251.46)
 		)
 		(stroke
@@ -9330,6 +9374,16 @@
 			(type default)
 		)
 		(uuid "dcd446e3-e8d6-481d-bb64-ae6fb962d3bf")
+	)
+	(wire
+		(pts
+			(xy 372.11 82.55) (xy 372.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc0e680-a8f9-4d1d-8e3e-b6958b8087f2")
 	)
 	(wire
 		(pts
@@ -11388,6 +11442,70 @@
 			(project "ADCS_Teidesat2"
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 372.11 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1392f2d5-2703-4931-acab-4ea80d253d86")
+		(property "Reference" "#PWR026"
+			(at 372.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 369.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76fb5847-f25d-4bdc-a7c2-5a578544d15e")
+		)
+		(instances
+			(project "ADCS_Teidesat"
+				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13806,6 +13924,70 @@
 			(project "ADCS_Teidesat"
 				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 401.32 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96c1c225-f7b6-47f9-ac5c-7c585c9861a4")
+		(property "Reference" "#PWR027"
+			(at 401.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 401.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 401.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8641e14-b945-4c00-b32c-07c097923dd7")
+		)
+		(instances
+			(project "ADCS_Teidesat"
+				(path "/983c426c-24e0-4c65-ab69-1f1824adc5c6"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

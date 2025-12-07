@@ -1,0 +1,1212 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TMS5703137DPGEQQ1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -25.4 43.942 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "TMS5703137DPGEQQ1" (id 1) (at -25.4 -43.18 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "TMS5703137DPGEQQ1:QFP50P2200X2200X160-144N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "C" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Texas Instruments" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TMS5703137DPGEQQ1_1_0"
+      (text "MibADC1, MibADC2" (at -25.4 41.402 0)
+        (effects (font (size 1.778 1.778)) (justify bottom left))
+      )
+      (rectangle (start -25.4 -40.64) (end 25.4 40.64)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -30.48 33.02 0) (length 5.08)
+        (name "ADREFHI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "66"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 30.48 0) (length 5.08)
+        (name "ADREFLO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "67"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 38.1 180.0) (length 5.08)
+        (name "VCCAD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "69"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -38.1 180.0) (length 5.08)
+        (name "VSSAD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "68"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 25.4 0) (length 5.08)
+        (name "AD1IN[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "60"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 20.32 0) (length 5.08)
+        (name "AD1IN[2]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "73"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 22.86 0) (length 5.08)
+        (name "AD1IN[1]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "71"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 15.24 0) (length 5.08)
+        (name "AD1IN[4]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "76"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 17.78 0) (length 5.08)
+        (name "AD1IN[3]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "74"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 12.7 0) (length 5.08)
+        (name "AD1IN[5]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "78"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 7.62 0) (length 5.08)
+        (name "AD1IN[7]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "61"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 10.16 0) (length 5.08)
+        (name "AD1IN[6]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "80"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 5.08 0) (length 5.08)
+        (name "AD1IN[8]/AD2IN[8]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "83"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 2.54 0) (length 5.08)
+        (name "AD1IN[9]/AD2IN[9]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "70"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 0.0 0) (length 5.08)
+        (name "AD1IN[10]/AD2IN[10]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "72"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -2.54 0) (length 5.08)
+        (name "AD1IN[11]/AD2IN[11]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "75"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -7.62 0) (length 5.08)
+        (name "AD1IN[13]/AD2IN[13]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "79"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -5.08 0) (length 5.08)
+        (name "AD1IN[12]/AD2IN[12]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "77"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -10.16 0) (length 5.08)
+        (name "AD1IN[14]/AD2IN[14]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "82"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -15.24 0) (length 5.08)
+        (name "AD1IN[16]/AD2IN[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "58"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -12.7 0) (length 5.08)
+        (name "AD1IN[15]/AD2IN[15]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "85"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -20.32 0) (length 5.08)
+        (name "AD1IN[18]/AD2IN[2]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "62"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -17.78 0) (length 5.08)
+        (name "AD1IN[17]/AD2IN[1]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "59"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -22.86 0) (length 5.08)
+        (name "AD1IN[19]/AD2IN[3]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "63"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -27.94 0) (length 5.08)
+        (name "AD1IN[21]/AD2IN[5]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "65"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -25.4 0) (length 5.08)
+        (name "AD1IN[20]/AD2IN[4]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "64"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -30.48 0) (length 5.08)
+        (name "AD1IN[22]/AD2IN[6]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "81"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 -33.02 0) (length 5.08)
+        (name "AD1IN[23]/AD2IN[7]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "84"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "TMS5703137DPGEQQ1_2_0"
+      (text "N2HET1, N2HET2, MibSPI, MDIO, RMII, MII" (at -51.054 43.434 0)
+        (effects (font (size 1.778 1.778)) (justify bottom left))
+      )
+      (rectangle (start -50.8 -40.64) (end 50.8 43.18)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -55.88 38.1 0) (length 5.08)
+        (name "N2HET1[0]/SPI4CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 35.56 0) (length 5.08)
+        (name "N2HET1[1]/SPI4NENA/N2HET2[8]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 33.02 0) (length 5.08)
+        (name "N2HET1[2]/SPI4SIMO[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 30.48 0) (length 5.08)
+        (name "N2HET1[3]/SPI4NCS[0]/N2HET2[10]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 27.94 0) (length 5.08)
+        (name "N2HET1[4]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 25.4 0) (length 5.08)
+        (name "N2HET1[5]/SPI4SOMI[0]/N2HET2[12]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 22.86 0) (length 5.08)
+        (name "N2HET1[6]/SCIRX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 20.32 0) (length 5.08)
+        (name "N2HET1[7]/N2HET2[14]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 17.78 0) (length 5.08)
+        (name "N2HET1[8]/MIBSPI1SIMO[1]/MII_TXD[3]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "106"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 15.24 0) (length 5.08)
+        (name "N2HET1[9]/N2HET2[16]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 12.7 0) (length 5.08)
+        (name "N2HET1[10]/MII_TX_CLK/MII_TX_AVCLK4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "118"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 10.16 0) (length 5.08)
+        (name "N2HET1[11]/MIBSPI3NCS[4]/N2HET2[18]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 7.62 0) (length 5.08)
+        (name "N2HET1[12]/MII_CRS/RMII_CRS_DV"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "124"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 5.08 0) (length 5.08)
+        (name "N2HET1[13]/SCITX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 2.54 0) (length 5.08)
+        (name "N2HET1[14]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "125"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 0.0 0) (length 5.08)
+        (name "N2HET1[15]/MIBSPI1NCS[4]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "41"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 38.1 180.0) (length 5.08)
+        (name "N2HET1[16]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "139"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 35.56 180.0) (length 5.08)
+        (name "MIBSPI1NCS[1]/N2HET1[17]/MII_COL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "130"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 33.02 180.0) (length 5.08)
+        (name "N2HET1[18]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "140"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 30.48 180.0) (length 5.08)
+        (name "MIBSPI1NCS[2]/N2HET1[19]/MDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "40"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 27.94 180.0) (length 5.08)
+        (name "N2HET1[20]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "141"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 25.4 180.0) (length 5.08)
+        (name "N2HET1[22]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 22.86 180.0) (length 5.08)
+        (name "MIBSPI1NENA/N2HET1[23]/MII_RXD[2]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "96"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 20.32 180.0) (length 5.08)
+        (name "N2HET1[24]/MIBSPI1NCS[5]/MII_RXD[0]/RMII_RXD[0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "91"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 17.78 180.0) (length 5.08)
+        (name "MIBSPI3NCS[1]/N2HET1[25]/MDCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 15.24 180.0) (length 5.08)
+        (name "N2HET1[26]/MII_RXD[1]/RMII_RXD[1]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "92"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 12.7 180.0) (length 5.08)
+        (name "MIBSPI3NCS[2]/I2C_SDA/N2HET1[27]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 10.16 180.0) (length 5.08)
+        (name "N2HET1[28]/MII_RX_CLK/RMII_REFCLK/MII_RX_AVCLK4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "107"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 7.62 180.0) (length 5.08)
+        (name "MIBSPI3NCS[3]/I2C_SCL/N2HET1[29]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 5.08 180.0) (length 5.08)
+        (name "N2HET1[30]/MII_RX_DV"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "127"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 2.54 180.0) (length 5.08)
+        (name "MIBSPI3NENA/MIBSPI3NCS[5]/N2HET1[31]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "54"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 0.0 180.0) (length 5.08)
+        (name "GIOA[5]/EXTCLKIN/N2HET1_PIN_NDIS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 -7.62 0) (length 5.08)
+        (name "GIOA[2]/N2HET2[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 -10.16 0) (length 5.08)
+        (name "GIOA[6]/N2HET2[4]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 -7.62 180.0) (length 5.08)
+        (name "GIOA[7]/N2HET2[6]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 -10.16 180.0) (length 5.08)
+        (name "MIBSPI3NCS[0]/AD2EVT/GIOB[2]/N2HET2_PIN_NDIS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "55"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 -17.78 0) (length 5.08)
+        (name "MIBSPI1CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "95"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 -20.32 0) (length 5.08)
+        (name "MIBSPI1NCS[0]/MIBSPI1SOMI[1]/MII_TXD[2]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "105"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 -22.86 0) (length 5.08)
+        (name "MIBSPI1SIMO[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "93"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 -25.4 0) (length 5.08)
+        (name "MIBSPI1SOMI[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "94"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 -30.48 0) (length 5.08)
+        (name "MIBSPI3CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "53"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 -33.02 0) (length 5.08)
+        (name "MIBSPI3SIMO[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "52"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -55.88 -35.56 0) (length 5.08)
+        (name "MIBSPI3SOMI[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "51"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 -17.78 180.0) (length 5.08)
+        (name "MIBSPI5CLK/MII_TXEN/RMII_TXEN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "100"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 -20.32 180.0) (length 5.08)
+        (name "MIBSPI5NCS[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 -22.86 180.0) (length 5.08)
+        (name "MIBSPI5NENA/MII_RXD[3]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "97"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 -25.4 180.0) (length 5.08)
+        (name "MIBSPI5SIMO[0]/MII_TXD[1]/RMII_TXD[1]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "99"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 -27.94 180.0) (length 5.08)
+        (name "MIBSPI5SOMI[0]/MII_TXD[0]/RMII_TXD[0]"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "98"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 55.88 -35.56 180.0) (length 5.08)
+        (name "AD1EVT/MII_RX_ER/RMII_RX_ER"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "86"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "TMS5703137DPGEQQ1_3_0"
+      (text "CAN, LIN" (at -12.7 8.128 0)
+        (effects (font (size 1.778 1.778)) (justify bottom left))
+      )
+      (rectangle (start -12.7 -7.62) (end 12.7 7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -17.78 5.08 0) (length 5.08)
+        (name "CAN1RX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "90"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 5.08 180.0) (length 5.08)
+        (name "CAN1TX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "89"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 2.54 0) (length 5.08)
+        (name "CAN2RX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "129"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 2.54 180.0) (length 5.08)
+        (name "CAN2TX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "128"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 0.0 0) (length 5.08)
+        (name "CAN3RX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 0.0 180.0) (length 5.08)
+        (name "CAN3TX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -5.08 0) (length 5.08)
+        (name "LINRX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "131"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -5.08 180.0) (length 5.08)
+        (name "LINTX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "132"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "TMS5703137DPGEQQ1_4_0"
+      (text "FlexRay" (at -15.24 8.128 0)
+        (effects (font (size 1.778 1.778)) (justify bottom left))
+      )
+      (rectangle (start -15.24 -7.62) (end 15.24 7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -20.32 5.08 0) (length 5.08)
+        (name "FRAYRX1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "126"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 5.08 180.0) (length 5.08)
+        (name "FRAYTX1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "133"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -2.54 180.0) (length 5.08)
+        (name "FRAYTXEN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "142"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 2.54 0) (length 5.08)
+        (name "FRAYRX2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 2.54 180.0) (length 5.08)
+        (name "FRAYTX2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -5.08 180.0) (length 5.08)
+        (name "FRAYTXEN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "TMS5703137DPGEQQ1_5_0"
+      (rectangle (start -17.78 -111.76) (end 17.78 25.4)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -22.86 12.7 0) (length 5.08)
+        (name "NPORRST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "46"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 10.16 0) (length 5.08)
+        (name "NRST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "116"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 7.62 0) (length 5.08)
+        (name "NERROR"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "117"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 22.86 -33.02 180.0) (length 5.08)
+        (name "KELVIN_GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 22.86 -30.48 180.0) (length 5.08)
+        (name "OSCOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional clock (at 22.86 -35.56 180.0) (length 5.08)
+        (name "ECLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "119"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 2.54 0) (length 5.08)
+        (name "TEST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -22.86 0.0 0) (length 5.08)
+        (name "NTRST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "109"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output clock (at -22.86 -2.54 0) (length 5.08)
+        (name "RTCK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "113"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -22.86 -5.08 0) (length 5.08)
+        (name "TCK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "112"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -7.62 0) (length 5.08)
+        (name "TDI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "110"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at -22.86 -10.16 0) (length 5.08)
+        (name "TDO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "111"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -12.7 0) (length 5.08)
+        (name "TMS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "108"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -22.86 180.0) (length 5.08)
+        (name "VCCP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "134"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -22.86 -17.78 0) (length 5.08)
+        (name "FLTP1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 22.86 180.0) (length 5.08)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -22.86 -20.32 0) (length 5.08)
+        (name "FLTP2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -7.62 180.0) (length 5.08)
+        (name "VCCIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -66.04 180.0) (length 5.08)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 22.86 -27.94 180.0) (length 5.08)
+        (name "OSCIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 20.32 180.0) (length 5.08)
+        (name "VCC__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 17.78 180.0) (length 5.08)
+        (name "VCC__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "45"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 15.24 180.0) (length 5.08)
+        (name "VCC__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "48"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 12.7 180.0) (length 5.08)
+        (name "VCC__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "49"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 10.16 180.0) (length 5.08)
+        (name "VCC__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "57"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 7.62 180.0) (length 5.08)
+        (name "VCC__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "87"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 5.08 180.0) (length 5.08)
+        (name "VCC__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "101"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 2.54 180.0) (length 5.08)
+        (name "VCC__8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "114"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 0.0 180.0) (length 5.08)
+        (name "VCC__9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "123"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -2.54 180.0) (length 5.08)
+        (name "VCC__10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "137"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -5.08 180.0) (length 5.08)
+        (name "VCC__11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "143"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -10.16 180.0) (length 5.08)
+        (name "VCCIO__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -12.7 180.0) (length 5.08)
+        (name "VCCIO__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -15.24 180.0) (length 5.08)
+        (name "VCCIO__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "104"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -17.78 180.0) (length 5.08)
+        (name "VCCIO__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "120"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -20.32 180.0) (length 5.08)
+        (name "VCCIO__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "136"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -68.58 180.0) (length 5.08)
+        (name "VSS__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -71.12 180.0) (length 5.08)
+        (name "VSS__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -73.66 180.0) (length 5.08)
+        (name "VSS__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -76.2 180.0) (length 5.08)
+        (name "VSS__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "43"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -78.74 180.0) (length 5.08)
+        (name "VSS__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "44"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -81.28 180.0) (length 5.08)
+        (name "VSS__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "47"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -83.82 180.0) (length 5.08)
+        (name "VSS__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "50"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -86.36 180.0) (length 5.08)
+        (name "VSS__8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "56"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -88.9 180.0) (length 5.08)
+        (name "VSS__9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "88"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -91.44 180.0) (length 5.08)
+        (name "VSS__10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "102"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -93.98 180.0) (length 5.08)
+        (name "VSS__11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "103"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -96.52 180.0) (length 5.08)
+        (name "VSS__12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "115"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -99.06 180.0) (length 5.08)
+        (name "VSS__13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "121"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -101.6 180.0) (length 5.08)
+        (name "VSS__14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "122"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -104.14 180.0) (length 5.08)
+        (name "VSS__15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "135"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -106.68 180.0) (length 5.08)
+        (name "VSS__16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "138"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -109.22 180.0) (length 5.08)
+        (name "VSS__17"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "144"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
