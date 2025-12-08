@@ -11256,7 +11256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Huellas ADCS:L80-M39"
+		(property "Footprint" "Huellas ADCS:Prueba_MODULOGNSS"
 			(at 66.04 239.7 0)
 			(effects
 				(font
